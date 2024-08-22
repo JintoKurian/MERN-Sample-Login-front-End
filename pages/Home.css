@@ -1,0 +1,151 @@
+
+
+
+
+.main{
+    width: 100;
+    height: 1000px;
+    /* background-color: #2E4A54; */
+    overflow-y: hidden;
+    background: linear-gradient(to right, #2E4A54, #4A7C85);
+}
+
+.main h1{
+    color: #83fe00; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header-right{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.secondHeading{
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.thirdHeading{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.forthHeading{
+    margin-left: 15px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.box{
+    width: 500px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.214);
+    border: rgb(255, 255, 255) solid;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-top: 60px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: white;
+    justify-content: space-around;
+}
+.box p{
+    margin-left: 14px;
+}
+
+.vl {
+    border-left: 2px solid rgba(255, 255, 255, 0.145);
+    height: 80px;
+    margin-top: -17px;
+  }
+
+.byenowbutton{
+    background-color: #00FF40;
+    color: black;
+    font-weight: bold;
+    width: 115px;
+    border-radius: 4px;
+    height: 40px;
+    box-shadow: none;
+    float: right;
+}
+
+.greenWatchImage{
+    transform: rotate(18deg);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(16px 5px 5px #222);
+    margin-top: -50px;
+    width: 450px;
+    transition: transform 1s, width 1s, filter 1s, margin-top 1s;
+
+}
+
+.greenWatchImage:hover{
+    transform: rotate(23deg);
+    transition-duration: 1s;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(16px 5px 5px #222);
+    margin-top: -50px;
+    width: 480px;
+    cursor: pointer;
+    animation-duration: 0.7s;
+} 
+
+
+ .arrow{
+    margin-left: 150px;
+    margin-top: 6px;
+}
+
+.arrow .fa-arrow-right{
+    margin-left: 60px;
+}
+
+
+.card{
+    width: 180px;
+    min-height: 270px;
+    margin-left: 15px;
+}
+
+.card h6{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.card p{
+    text-align: center;
+    color: gray;
+}
+
+.secondHeading {
+    line-height: 1.2; 
+    padding: 0;
+}
+
+
+.byenowbuttonCard{
+    background-color: #00FF40;
+    color: black;
+    font-weight: bold;
+    width: 115px;
+    border-radius: 4px;
+    height: 40px;
+    box-shadow: none;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
